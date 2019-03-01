@@ -1,0 +1,374 @@
+{
+	"VNPCSignup-001001":
+	{
+		"account_name":".//div[@class='navbar__link-text navbar__link-text--normal-case']"
+	},
+
+	"VNPCSignup-001002":
+	{
+		"phone_error_message":".//*[@class = 'input-with-status__error-msg' and text()='Số điện thoại không hợp lệ']",
+		"vcode_error_message":".//*[@class = 'input-with-status__error-msg' and text()='Mã xác minh phải gồm 6 chữ số']",
+		"account_error_message":".//*[@class='input-with-status__error-msg' and text()='Vui lòng nhập Tên người dùng' or text()='Tên đăng nhập không được dài quá 30 ký tự, bao gồm chữ cái, số và dấu \"_\" hoặc dấu \".\", không bao gồm khoảng trống.']",
+		"password_error_message":".//*[@class = 'input-with-status__error-msg' and text()='Mật khẩu phải dài từ 8-16 kí tự, bao gồm 1 chữ viết hoa và 1 chữ viết thường']",
+		"confirm_password_error_message":".//*[@class = 'input-with-status__error-msg' and text()='Mật khẩu và Mật khẩu xác nhận không giống nhau']",
+		"image_code_error_message":".//*[@class = 'input-with-status__error-msg' and text()='Mã capcha không được để trống']"
+	},
+
+	"VNPCSignup-001003":
+	{
+		"signup":".//*[@class='shopee-authen-modal__tab shopee-authen-modal__tab--active']",
+		"login":".//*[@class='shopee-authen-modal__tab shopee-authen-modal__tab--active']",
+		"terms_of_service":".//*[@class='legal_doc_title']",
+		"privacy_policy":".//*[@class='legal_doc_title']",
+		"phone":".//input[@class='input-with-status__input'][@value='0747847847']",
+		"vcode":".//input[@class='input-with-status__input'][@value='666666']",
+		"account":".//input[@class='input-with-status__input'][@value='*(^%$#^%#*()_']",
+		"password":".//input[@class='input-with-status__input'][@value='蝦皮$%@QATest_777.']",
+		"confirm_password":".//input[@class='input-with-status__input'][@value='12345678']",
+		"image_code":".//input[@class='input-with-status__input'][@value='77777']",
+		"check_email":"//input[@placeholder='Email']",
+        "check_account":".//input[@class='input-with-status__input' and @placeholder='Tên đăng nhập']",
+        "check_password":".//input[@placeholder='Mật khẩu']",
+        "check_confirm_password":".//input[@placeholder='Xác nhận mật khẩu']",
+		"check_numbers":".//input[@placeholder='Vui lòng nhập số']",
+		"check_fb_email":".//input[@id='email']",
+		"check_fb_password":".//input[@id='pass']"
+	},
+
+	"VNPCSignup-001004":
+	{
+		"email_error_message":".//span[contains(text(),'Email không hợp lệ')]",
+		"account_error_message":".//span[text()='Vui lòng nhập Tên người dùng' or text()='Tên đăng nhập không được dài quá 30 ký tự, bao gồm chữ cái, số và dấu \"_\" hoặc dấu \".\", không bao gồm khoảng trống.']",
+		"passsword_error_message":".//span[text()='Mật khẩu phải dài từ 8-16 kí tự, bao gồm 1 chữ viế' or text()='Mật khẩu phải dài từ 8-16 kí tự, bao gồm 1 chữ viết hoa và 1 chữ viết thường']",
+		"image_code_error_message":".//span[contains(text(),'Mã capcha không được để trống')]",
+		"confirm_password_error_message":".//span[contains(text(),'Mật khẩu và Mật khẩu xác nhận không giống nhau')]"
+	},
+
+	"VNPCSignup-001005":
+	{
+		"signup":".//*[@class='shopee-authen-modal__tab shopee-authen-modal__tab--active']",
+		"login":".//*[@class='shopee-authen-modal__tab shopee-authen-modal__tab--active']",
+		"terms_of_service":".//*[@class='legal_doc_title']",
+		"privacy_policy":".//*[@class='legal_doc_title']",
+		"check_phone":".//input[@class='input-with-status__input'][@value='123@gmaxil.com']",
+		"check_account":".//input[@class='input-with-status__input'][@value='automationterry444']",
+		"check_password":".//input[@class='input-with-status__input'][@value='123456']",
+		"check_confirm_password":".//input[@class='input-with-status__input'][@value='12345678']",
+		"check_image_code":".//input[@class='input-with-status__input'][@value='77777']",
+		"check_fb_email":".//input[@id='email']",
+		"check_fb_password":".//input[@id='pass']"
+	},
+
+	"VNPCSignup-001006":
+	{
+		"username_error_message":".//span[@class='input-with-status__error-msg'][text()='Vui lòng nhập Tên người dùng']",
+		"username_format_error_message":".//span[@class='input-with-status__error-msg'][text()='Tên đăng nhập không được dài quá 30 ký tự, bao gồm chữ cái, số và dấu \"_\" hoặc dấu \".\", không bao gồm khoảng trống.']",
+		"email_error_message":".//span[@class='input-with-status__error-msg' and text()='Email không hợp lệ']",
+		"duplicate_name_error_message":".//div[@class='shopee-facebook-signup__error' and text()='Đã có người chọn tên đăng nhập này. Bạn chọn tên khác nhé!']",
+		"duplicate_email_error_message":"//div[@class='shopee-facebook-signup__error' and text()='Email này đã được đăng ký']"
+	},
+
+	"VNPCSignup-001007":
+	{
+		
+		"terms_of_service":".//*[@class='legal_doc_title']",
+		"privacy_policy":".//*[@class='legal_doc_title']",
+		"check_fb_account":".//input[@placeholder='Tên đăng nhập']",
+		"check_fb_email":".//input[@placeholder='Email(Không bắt buộc)']",
+		"check_phone":".//input[@placeholder='Số điện thoại']",
+        "check_vcode":".//input[@placeholder='Mã xác minh']",
+        "check_account":".//input[@placeholder='Tên đăng nhập']",
+        "check_password":".//input[@placeholder='Mật khẩu']",
+        "check_confirm_password":".//input[@placeholder='Xác nhận mật khẩu']",
+        "check_image_code":".//input[@placeholder='Vui lòng nhập số']"
+	},
+	"VNPCLogin-001001":
+	{
+		"login_name":".//div[@class='navbar__link-text navbar__link-text--normal-case']"
+	},
+
+	"VNPCLogin-001002":
+	{
+		"login_name":".//div[@class='navbar__link-text navbar__link-text--normal-case']"
+	},
+
+	"VNPCLogin-001003":
+	{
+		"login_name":".//div[@class='navbar__link-text navbar__link-text--normal-case']"
+	},
+
+	"VNPCLogin-001004":
+	{
+		"login_name":".//div[@class='navbar__link-text navbar__link-text--normal-case']",
+		"error_message":".//span[@class='input-with-status__error-msg']",
+		"authenticate_error":".//div[@class='shopee-authen__error']"
+	},
+
+	"VNPCLogin-001005":
+	{
+		"login_signup_tab":"//*[@class='shopee-authen-modal__tab shopee-authen-modal__tab--active']",
+		"reset_password_label":"//*[@class='shopee-reset-password__label']",
+		"account_input_field":"//*[@value='automationterry1']",
+		"password_input_field":"//*[@value='123456']"
+	},
+
+	"VNPCLogin-001006":
+	{
+		"error_message":".//span[@class='input-with-status__error-msg']",
+		"authenticate_error":".//div[@class='shopee-authen__error']"
+	},
+
+	"XtFunc":
+	{
+		"CallMe":
+		{
+			"bank":"//android.view.View[@resource-id='bank-transfer-page']/android.view.View[3]"
+		},
+		"TestDecoupling.CallClassFunction":
+		{
+			"source":"//android.view.View[@resource-id='bank-transfer-page']/android.view.View[3]"
+		},
+		"NewCall":
+		{
+			"homepage":"//xpath1/xpath2"
+		}
+	
+	},
+
+	"AdminMethod":
+	{
+		"AdminLogin":
+		{
+			"admin_account":".//input[@id='id_username']",
+			"admin_password":".//input[@id='id_password']",
+			"admin_login_btn":".//input[@value='Log In']",
+			"check_admin_title":".//div[@class='title' and text()='Shopee Admin']"
+		},
+
+		"AdminTab.GoToATab":
+		{
+			"user":".//a[@href='/user/']",
+			"products":".//span[text()='Products']",
+			"system":".//*[text()='System']",
+			"orders":".//span[text()='Orders']",
+			"cms":".//span[text()='CMS']",
+			"notif":".//a[@href='/notif/']",
+			"sub_orders":".//a[@href='/order/']"
+		},
+
+		"AdminSingupLogin.UserAccountDelete":
+		{
+			"search_user":".//*[@id='main_table']/tbody/tr[1]/th[2]/input",
+			"check_target_user":".//*[@id='main_table']/tbody/tr[2]/td[2]",
+			"click_target_user":".//*[@id='main_table']/tbody/tr[2]/td[1]/a",
+			"status_btn":".//button[@class='status ui teal button w-control']",
+			"delete_option":".//input[@type='radio' and @id='status_0']",
+			"delete_reason":".//textarea[@id='reason']",
+			"submit_btn":".//button[@type='button' and @id='save-status']",
+			"check_account_had_delete":".//button[@class='status ui teal button w-control']"
+		},
+
+		"AdminSingupLogin.UserAccountRestore":
+		{
+			"search_user":".//*[@id='main_table']/tbody/tr[1]/th[2]/input",
+			"check_target_user":".//*[@id='main_table']/tbody/tr[2]/td[2]",
+			"click_target_user":".//*[@id='main_table']/tbody/tr[2]/td[1]/a",
+			"check_status":".//button[@class='status ui teal button w-control'][text()='Status: Normal']",
+			"status_btn":".//button[@class='status ui teal button w-control']",
+			"delete_option":".//input[@type='radio' and @id='status_0']",
+			"delete_reason":".//textarea[@id='reason']",
+			"submit_btn":".//button[@type='button' and @id='save-status']",
+			"check_account_had_delete":".//button[@class='status ui teal button w-control']"
+		}
+	},
+
+	"CommonMethod":
+	{
+		"ShopeeLaunchWebSite":
+		{
+			"f5_page":".//img[@class='popup-banner__img']"
+		},
+
+		"HomePageNavigationBar.ClickLoginIcon":
+		{
+			"Login_btn":"(.//*[@class='navbar__link navbar__link--account navbar__link--tappable navbar__link--hoverable navbar__link-text navbar__link-text--medium'])[2]"
+		},
+
+		"HomePageNavigationBar.ClickSignupIcon":
+		{
+			"Signup_btn":"(.//*[@class='navbar__link navbar__link--account navbar__link--tappable navbar__link--hoverable navbar__link-text navbar__link-text--medium'])[1]"
+		},
+
+		"ShopeeMallNavigationBar.GoToBuyerHomePage":
+		{
+			"buyer_homepage_icon":"//*[@class='shopee-svg-icon icon-shopee-logo--official-shop']"
+		}
+	},
+
+	"LoginSignupMethod":
+	{
+		"ShopeeLogin":
+		{
+			"login_hyperlink":".//li[@class='navbar__link navbar__link--account navbar__link--tappable navbar__link--hoverable navbar__link-text navbar__link-text--medium'][text()='登入' or text()='Đăng nhập']",
+			"login_account":".//input[@placeholder='Email/ 手機號碼/ 使用者帳號' or @placeholder='Email/Số Điện thoại/Tên đăng nhập']",
+			"login_password":".//input[@placeholder='密碼' or @placeholder='Mật khẩu']",
+			"vcode":".//input[@placeholder='驗證碼']",
+			"vcode_ok_btn":"//button[text()='認證']",
+			"check_login_status":".//div[@class='navbar__link-text navbar__link-text--normal-case']",
+			"facebook_login_email":".//input[@class='inputtext _55r1 inputtext inputtext' and @ id='email']",
+			"facebook_login_password":".//input[@class='inputtext _55r1 inputtext inputtext' and @ id='pass']",
+			"facebook_login_btn":".//input[@value='Log In']"
+		},
+
+		"ShopeeLogOut":
+		{
+			"shopee_username":".//*[@class='navbar__link-text navbar__link-text--normal-case']",
+			"logout_option":".//*[@class='navbar-account-drawer__button navbar-account-drawer__button--complement']"
+		},
+
+		"LoginPage.LoginNoPhoneNumber":
+		{
+			"login_hyperlink":"(.//*[@class='navbar__link navbar__link--account navbar__link--tappable navbar__link--hoverable navbar__link-text navbar__link-text--medium'])[2]",
+			"login_account":".//input[@placeholder='Email/ 手機號碼/ 使用者帳號' or @placeholder='Email/Số Điện thoại/Tên đăng nhập']",
+			"login_password":".//input[@placeholder='密碼' or @placeholder='Mật khẩu']",
+			"login_status":".//*[@class='navbar__link-text navbar__link-text--normal-case']"
+		},
+
+		"LoginPage.AccountLoginFET":
+		{
+			"login_account":".//input[@placeholder='Email/ 手機號碼/ 使用者帳號' or @placeholder='Email/Số Điện thoại/Tên đăng nhập']",
+			"login_password":".//input[@placeholder='密碼' or @placeholder='Mật khẩu']"
+		},
+
+		"LoginPage.SMSLoginFET":
+		{
+			"phone_number":".//input[@placeholder='手機號碼' or @placeholder='Số điện thoại']",
+			"vcode":".//input[@placeholder='驗證碼' or @placeholder='Mã xác minh']",
+			"image_code":".//input[@placeholder='請輸入數字' or @placeholder='Vui lòng nhập số']"
+		},
+
+		"LoginPage.ChangeLoginMethod":
+		{
+			"using_sms_login":".//div[@class='app-AuthenticationPopup-components-AuthenticationFooter-__btnIcon sprite-social-white sprite-social-white-sms']",
+			"check_phone":".//*[@placeholder='手機號碼' or @placeholder='Số điện thoại']",
+			"check_vcode":"//*[@placeholder='驗證碼'or @placeholder='Mã xác minh']",
+			"check_image_code":"//*[@placeholder='請輸入數字' or @placeholder='Vui lòng nhập số']",
+			"using_fb_login":".//div[@class='app-AuthenticationPopup-components-AuthenticationFooter-__btnIcon sprite-social-white sprite-social-white-fb']",
+			"facebook_homelink":".//*[@id='homelink']",
+			"using_account_login":".//div[@class='app-AuthenticationPopup-components-AuthenticationFooter-__btnIcon sprite-social-white sprite-social-white-shopee']",
+			"check_account":".//input[@placeholder='Email/ 手機號碼/ 使用者帳號' or @placeholder='Email/Số Điện thoại/Tên đăng nhập']",
+			"check_password":".//input[@placeholder='密碼' or @placeholder='Mật khẩu']"
+		},
+
+		"LoginPage.ForgetPassword":
+		{
+			"forget_password_btn":"//*[@class='app-AuthenticationPopup-components-Login-components-LoginEmailForm-__forgotBtn']"
+		},
+
+		"SignupPage.PhoneSignupFET":
+		{
+			"phone":".//input[@placeholder='Số điện thoại' or @placeholder='手機號碼']",
+        	"vcode":".//input[@placeholder='Mã xác minh' or @placeholder='驗證碼']",
+        	"account":".//input[@placeholder='Tên đăng nhập' or @placeholder='使用者帳號']",
+        	"password":".//input[@placeholder='Mật khẩu' or @placeholder='密碼']",
+        	"confirm_password":".//input[@placeholder='Xác nhận mật khẩu' or @placeholder='確認密碼']",
+        	"numbers":".//input[@placeholder='Vui lòng nhập số' or @placeholder='請輸入數字']"
+		},
+
+		"SignupPage.EmailSignupFET":
+		{
+			"email":".//input[@placeholder='Email']",
+			"account":".//input[@placeholder='Tên đăng nhập' or @placeholder='使用者帳號']",
+			"password":".//input[@placeholder='Mật khẩu' or @placeholder='密碼']",
+			"confirm_password":".//input[@placeholder='Xác nhận mật khẩu' or @placeholder='確認密碼']",
+			"image_code":".//input[@placeholder='Vui lòng nhập số' or @placeholder='請輸入數字']"
+		},
+
+		"SignupPage.ChangeSignupMethod":
+		{
+			"using_phone_signup":"(.//*[@class='app-AuthenticationPopup-components-AuthenticationFooter-__btnTxt'])[1]",
+			"using_facebook_signup":"(.//*[@class='app-AuthenticationPopup-components-AuthenticationFooter-__btnTxt'])[2]",
+			"Facebook_homelink":".//*[@id='homelink']",
+			"No_detect_facebook_window":".//*[@class='shopee-facebook-signup__header']",
+			"using_email_signup":"(.//*[@class='app-AuthenticationPopup-components-AuthenticationFooter-__btnTxt'])[1]"
+		},
+
+		"SignupPage.FacebookSignup":
+		{
+			"fb_email":".//*[@id='email']",
+			"fb_password":".//*[@id='pass']",
+			"fb_login":".//input[@value='Log In']",
+			"confirm_btn":".//button[@class='_42ft _4jy0 layerConfirm _1fm0 _51_n autofocus _4jy3 _4jy1 selected _51sy']"
+		},
+
+		"SignupPage.FacebookSignupFET":
+		{
+			"re_name":"(.//input[@class='input-with-status__input'])[1]",
+			"re_email":"(.//input[@class='input-with-status__input'])[2]"
+		},
+
+		"SignupPage.GoToTermsOfService":
+		{
+			"terms_of_service":"(.//*[@class='shopee-authen-modal__link'])[1]"
+		},
+
+		"SignupPage.GoToPrivacyPolicy":
+		{
+			"privacy_policy":"(.//*[@class='shopee-authen-modal__link'])[2]"
+		},
+
+		"SignupPage.RenameUserNameAndEmail":
+		{
+			"re_name":"(.//input[@class='input-with-status__input'])[1]",
+			"re_email":"(.//input[@class='input-with-status__input'])[2]"
+		},
+
+		"SignupPage.ClickLoginNow":
+		{
+			"login_now_btn":".//button[@class='shopee-button-solid shopee-button-solid--primary shopee-button-solid--fill ']"
+		},
+
+		"PhoneNumberVerification.InputVerificationCode":
+		{
+			"input_vcode":".//*[@class='input-with-status__input']"
+		},
+
+		"LoginSignupButton.ClickVerificationButton":
+		{
+			"verfy_btn":".//button[@class='btn btn-solid-primary btn--s btn--inline app-AuthenticationPopup-components-SubmitAndCancelButtons-__btn']"
+		},
+
+		"LoginSignupButton.ClickLoginButton":
+		{
+			"login_btn":".//*[@class='btn btn-solid-primary btn--s btn--inline app-AuthenticationPopup-components-SubmitAndCancelButtons-__btn']"
+		},
+
+		"LoginSignupButton.ClickSignUpButton":
+		{
+			"signup_btn":".//*[@class='btn btn-solid-primary btn--s btn--inline app-AuthenticationPopup-components-SubmitAndCancelButtons-__btn']"
+		},
+
+		"LoginSignupButton.SwitchTab":
+		{
+			"switch_tab":".//button[@class='shopee-authen-modal__tab']"
+		},
+
+		"LoginSignupButton.ClickCancel":
+		{
+			"cancel_btn":".//*[@class='cancel-btn']"
+		}
+	},
+
+	"SellerCenterMethod":
+	{
+		"SellerCenterNavigation.GoToCategory":
+		{
+			"Back_to_view_with_picture":".//div[@class='guide-back']"
+		},
+
+		"MySellerProducts.UpdateProductStatus":
+		{
+			"Switch_view_mode":".//label[@class='shopee-radio-button view-radio']"
+		}
+	}
+}
